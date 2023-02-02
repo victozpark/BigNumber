@@ -28,6 +28,7 @@
 ## Install
 ```shell
 $ mkdir build                # Make a build directory
+$ cd build                   # Change to the build directory
 $ cmake ..                   # Create a Makefile
 $ make                       # Make a libray file
 $ make install               # Install library and a header files
