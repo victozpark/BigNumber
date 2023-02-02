@@ -53,19 +53,19 @@ std::cout << bn01 * bn02 << std::endl; // Output : 3084835573.798672332114
 // Division
 std::cout << bn01 / bn02 << std::endl; // Output : 0.95654082834328973443
 
-BigNumber bn10{"76543.123456"};
-BigNumber bn11 = bn10;
-BigNumber bn12 = bn10;
-BigNumber bn13 = bn10;
-BigNumber bn14 = bn10;
-BigNumber bn21 = bn10;
-BigNumber bn22 = bn10;
-BigNumber bn23 = bn10;
-BigNumber bn24 = bn10;
-BigNumber bn31 = bn10;
-BigNumber bn32 = bn10;
-BigNumber bn33 = bn10;
-BigNumber bn34 = bn10;
+vp::BigNumber bn10{"76543.123456"};
+vp::BigNumber bn11 = bn10;
+vp::BigNumber bn12 = bn10;
+vp::BigNumber bn13 = bn10;
+vp::BigNumber bn14 = bn10;
+vp::BigNumber bn21 = bn10;
+vp::BigNumber bn22 = bn10;
+vp::BigNumber bn23 = bn10;
+vp::BigNumber bn24 = bn10;
+vp::BigNumber bn31 = bn10;
+vp::BigNumber bn32 = bn10;
+vp::BigNumber bn33 = bn10;
+vp::BigNumber bn34 = bn10;
 
 // Round
 std::cout << bn11.round(-5) << std::endl; // Output : 76543.1235
