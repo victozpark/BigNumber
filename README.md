@@ -52,6 +52,38 @@ std::cout << bn01 * bn02 << std::endl; // Output : 3084835573.798672332114
 
 // Division
 std::cout << bn01 / bn02 << std::endl; // Output : 0.95654082834328973443
+
+BigNumber bn10{"76543.123456"};
+BigNumber bn11 = bn10;
+BigNumber bn12 = bn10;
+BigNumber bn13 = bn10;
+BigNumber bn14 = bn10;
+BigNumber bn21 = bn10;
+BigNumber bn22 = bn10;
+BigNumber bn23 = bn10;
+BigNumber bn24 = bn10;
+BigNumber bn31 = bn10;
+BigNumber bn32 = bn10;
+BigNumber bn33 = bn10;
+BigNumber bn34 = bn10;
+
+// Round
+std::cout << bn11.round(-5) << std::endl; // Output : 76543.1235
+std::cout << bn12.round(-3) << std::endl; // Output : 76543.12
+std::cout << bn13.round(3)  << std::endl; // Output : 77000
+std::cout << bn14.round(1)  << std::endl; // Output : 76540
+
+// Round up
+std::cout << bn21.roundUp(-5) << std::endl; // Output : 76543.1235
+std::cout << bn22.roundUp(-3) << std::endl; // Output : 76543.13
+std::cout << bn23.roundUp(3)  << std::endl; // Output : 77000
+std::cout << bn24.roundUp(1)  << std::endl; // Output : 76550
+
+// Round down
+std::cout << bn31.roundDown(-5) << std::endl; // Output : 76543.1234
+std::cout << bn32.roundDown(-3) << std::endl; // Output : 76543.12
+std::cout << bn33.roundDown(3)  << std::endl; // Output : 76000
+std::cout << bn34.roundDown(1)  << std::endl; // Output : 76540
 ```
 
 ----
