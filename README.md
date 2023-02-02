@@ -41,16 +41,16 @@ $ ls -al ../release/lib      # You can check a library file
 vp::BigNumber bn01{"54321.001234"};
 vp::BigNumber bn02{"56789.004321"};
 
-// ADD
+// Addition
 std::cout << bn01 + bn02 << std::endl; // Output : 111110.005555
 
-// MINUS
+// Subtraction
 std::cout << bn01 - bn02 << std::endl; // Output : -2468.003087
 
-// MULTIPLY
+// Multiplication
 std::cout << bn01 * bn02 << std::endl; // Output : 3084835573.798672332114
 
-// DIVIDE
+// Division
 std::cout << bn01 / bn02 << std::endl; // Output : 0.95654082834328973443
 ```
 
