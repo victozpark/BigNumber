@@ -31,7 +31,7 @@ $ mkdir build                # Make a build directory
 $ cd build                   # Change to the build directory
 $ cmake ..                   # Create a Makefile
 $ make                       # Make a libray file
-$ make install               # Install library and a header files
+$ make install               # Install header and library files
 $ ls -al ../release/include  # You can check a header file
 $ ls -al ../release/lib      # You can check a library file
 ```
