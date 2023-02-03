@@ -13,7 +13,7 @@ public:
 	BigNumber(const std::string &val);
 	BigNumber(const std::string &val, std::size_t nMaxFracLen);
 	BigNumber(std::size_t nMaxFracLen);
-	~BigNumber();
+	virtual ~BigNumber();
 
 	auto friend operator<<(std::ostream& os, const BigNumber &rhs) -> std::ostream&;
 	auto operator+ (const BigNumber &rhs) -> BigNumber ;
